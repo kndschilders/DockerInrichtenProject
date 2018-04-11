@@ -50,7 +50,7 @@ public class CalculatorTest {
         Assert.assertEquals(0, calc.subtract(1, 1));
     }
 
-    @Test(timeout=5)
+    @Test(timeout=50)
     public void testMultiply() {
         Assert.assertEquals(1, calc.multiply(1, 1));
     }
